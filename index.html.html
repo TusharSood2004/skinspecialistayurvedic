@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Kamini Verma - Ayurvedic Skin Specialist</title>
+  <style>
+    /* Global Styling */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3e5f5; /* Soft background color */
+      color: #333;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+    header {
+      background: #8e24aa;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    .profile-photo {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 5px solid #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .profile-photo:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 20px 5px #ff4081;
+    }
+    .doctor-name {
+      margin-top: 220px;
+      font-size: 32px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .doctor-info {
+      font-size: 20px;
+      margin-top: 10px;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    main {
+      padding: 50px 20px;
+    }
+    section {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      font-size: 28px;
+      color: #8e24aa;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    a.button, form button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #ff4081;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    a.button:hover, form button:hover {
+      background-color: #c2185b;
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-top: 12px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      font-size: 18px;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+    footer {
+      background-color: #8e24aa;
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      color: white;
+      box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.2);
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes slideUp {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Dr. Kamini Verma" class="profile-photo" />
+    <div class="doctor-name">Dr. Kamini Verma</div>
+    <div class="doctor-info">B.A.M.S, M.D. (Ayurveda) | Ayurvedic Skin Specialist</div>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About Us</h2>
+      <p>
+        At our Ayurvedic Skin Clinic, we blend ancient healing traditions with modern practices to offer holistic care for your skin. Led by Dr. Kamini Verma, a specialist with over 10 years of experience, our treatments are 100% natural, personalized, and focused on long-term results. We believe that true healing comes from balancing the body, mind, and skin.
+      </p>
+    </section>
+
+    <section>
+      <h2>Specialized Treatments</h2>
+      <ul>
+        <li>Psoriasis & Eczema Relief</li>
+        <li>Acne, Pimples & Oily Skin Management</li>
+        <li>Skin Allergy & Itch Treatment</li>
+        <li>Hyperpigmentation & Dark Spots</li>
+        <li>Natural Glow & Skin Rejuvenation</li>
+        <li>Ayurvedic Anti-Aging Therapies</li>
+        <li>Detox and Panchakarma for Skin Purification</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Clinic Address</h2>
+      <p>
+        Ayurvedic Hospital, Paprola, Himachal Pradesh, India – 176125.
+      </p>
+    </section>
+
+    <section>
+      <h2>Consultation & Contact</h2>
+      <p><strong>Phone:</strong> +91 78071 74753</p>
+      <p><strong>Email:</strong> contact@skinspecialistayurvedic.com</p>
+      <p><strong>WhatsApp:</strong> 
+        <a class="button" href="https://wa.me/917807174753" target="_blank">Chat on WhatsApp</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Book an Appointment</h2>
+      <form id="appointment-form">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="tel" name="Phone" placeholder="Phone Number" required>
+        <input type="email" name="Email" placeholder="Email (optional)">
+        <textarea name="Message" placeholder="Describe your skin issue..." rows="4" required></textarea>
+        <button type="submit">Submit Request</button>
+      </form>
+      <p id="form-response" style="color: green; margin-top: 10px;"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Skin Specialist Ayurvedic | Designed for Dr. Kamini Verma
+  </footer>
+
+  <script>
+    // FORM SUBMIT TO GOOGLE SHEET
+    const form = document.getElementById('appointment-form');
+    const response = document.getElementById('form-response');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+
+      const scriptURL = 'YOUR_GOOGLE_SCRIPT_URL_HERE'; // Replace with actual URL
+      const formData = new FormData(form);
+
+      fetch(scriptURL, { method: 'POST', body: formData })
+        .then(response => {
+          form.reset();
+          document.getElementById("form-response").innerText = "Your request has been sent successfully!";
+        })
+        .catch(error => {
+          console.error('Error!', error.message);
+          document.getElementById("form-response").innerText = "Something went wrong. Please try again.";
+        });
+    });
+  </script>
+
+</body>
+</html>
